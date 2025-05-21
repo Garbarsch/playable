@@ -11,7 +11,7 @@ export default function StartScreen({ onStart }: { onStart: () => void }) {
   return (
     <div className="relative h-screen w-screen overflow-hidden">
       <Image
-        src="public/images/Computer.png"  
+        src="/public/images/Computer.png"  
         alt="Desk Background"
         fill
         className="object-cover"
