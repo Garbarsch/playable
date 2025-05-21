@@ -347,8 +347,6 @@ export default function Home() {
 
             {/* MAIN UI */}
             <div className="h-full p-6 flex flex-col space-y-6 overflow-auto">
-              <h1 className="text-2xl font-bold">Hyper-Productivity Simulator</h1>
-
               <div>
                 <h2 className="mb-1">Productivity</h2>
                 <ProductivityMeter value={productivity} />
